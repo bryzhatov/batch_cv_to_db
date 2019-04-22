@@ -1,0 +1,9 @@
+spring:
+  batch:
+    initialize-schema: always
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/batch_cv_to_db
+    username: postgres
+    password: Bryzh200696
+    driver-class-name: org.postgresql.Driver
